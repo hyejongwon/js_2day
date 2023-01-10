@@ -11,7 +11,7 @@ let hello = '안녕하세요'; //전역변수 ;
 
 if(true){
     let hello="hello" ;  
-    console.log(hello);
+    console.log(hello); 
     //지역변수 
     //let 코드블록 안에서 지역변수
 }
