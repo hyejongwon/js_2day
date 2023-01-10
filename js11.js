@@ -44,3 +44,12 @@ class Dog {
 const dog1 = new Dog('black',3.5,'male');
 console.log(dog1)
 //class Dog  을 확장해서  cat 만들고 name 속성을 추가 한다. 
+class Cat extends Dog {
+    constructor(color,weight,gender,name)  {
+        super(color,weight,gender);
+        this.name=name;
+    }
+}
+
+const cat1 = new Cat('black',4.5,'female','순둥이');
+console.log(cat1)
